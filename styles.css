@@ -1,0 +1,150 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    
+}
+
+.dashboard{
+    display:grid;
+    grid-template-columns: 0.5th 1th 1th 1th 1th 1th;
+    grid-template-rows: 0.5th 1th 1th 1th 1th 1th 1th ;
+}
+
+.sidebar{
+    background-color:burlywood;
+    display:flex;
+    flex-flow: column;
+    grid-column: 1/2;
+    grid-row: 1/8;
+    padding:50px;
+}
+.logo{
+    display:flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.img{
+    height:14px;
+    width:auto;
+}
+
+.imgl{
+    height:25px;
+    width:auto;
+}
+.logoText{
+    font-size:2rem;
+    color:black;
+    font-weight: 800;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 5px;
+}
+.nav{
+    font-size:1rem;
+}
+.menuu{
+display:flex;
+align-items: stretch;
+justify-content: space-around;
+align-items: center;
+padding:10px;
+}
+
+.imgm{
+    height:30px;
+    width:Auto;
+}
+#site-search{
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding:7px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    transition: ease-in-out, width .35s ease-in-out;
+    padding-right: 100px;
+    padding-left: 50px;
+
+
+}
+.imgo{
+    height:40px;
+    width:Auto;
+    border-radius:50%;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+    align-items: center;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+}
+.names{
+    display: flex;
+    flex-flow: column;
+}
+.hi{
+    font-size:1rem;
+    font-weight: 500;
+}
+
+.mor{
+    font-size:1.4rem;
+    font-weight: 800;
+}
+.second{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+.buttons{
+    display:flex;
+    justify-content: flex-end;
+   gap:15px;
+}
+
+.btns{
+    color:black;
+    background-color: beige;
+    font-size:1rem;
+    font-weight: 300;
+    border:none;
+    padding:8px;
+    border-radius: 5px;
+}
+.btns:hover{
+    background-color: bisque;
+    transition: ease-in-out, width .35s ease-in-out;
+}
+.last{
+    background-color: lightgray;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+
+.board{
+    grid-column: 2/6;
+    grid-row:1/7;
+}
